@@ -104,3 +104,24 @@ card-container {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,36 @@
+h2 {
+  font-size: 5rem;
+}
+
+h2 b {
+  color: blueviolet;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.services-container img {
+  filter: invert(1) grayscale(100%);
+  margin-bottom: 20px;
+}
+
+.logo-dev {
+  width: 100px;
+  height: 100px;
+}
+
+.dev-container {
+  padding: 2%;
+  margin-top: 8%;
+  border: 1px solid #fff;
+  background-image: url("https://wallpaperbat.com/img/219347-web-developer-wallpaper.jpg");
+  background-size: cover; /* or contain, depending on your preference */
+  background-position: center; /* or any other position */
+  border-radius: 15px;
+}
