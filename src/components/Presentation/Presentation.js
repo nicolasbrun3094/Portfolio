@@ -28,7 +28,7 @@ const Presentation = () => {
       <p>
         Hello, it's me
         <br />
-        Brun Nicolas
+        Nicolas Brun
         <br />
         and I'm a <span id="target">{text}</span>
         <br />

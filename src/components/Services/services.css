@@ -25,6 +25,10 @@ h2 b {
   height: 100px;
 }
 
+.div-effect {
+  width: 80%;
+}
+
 .dev-container {
   padding: 2%;
   margin-top: 8%;
@@ -33,4 +37,11 @@ h2 b {
   background-size: cover; /* or contain, depending on your preference */
   background-position: center; /* or any other position */
   border-radius: 15px;
+}
+
+.text-service {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 450;
+  text-align: center;
 }
