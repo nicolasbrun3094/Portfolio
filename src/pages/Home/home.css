@@ -1,0 +1,8 @@
+.home-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-information {
+  margin-top: -250px;
+}

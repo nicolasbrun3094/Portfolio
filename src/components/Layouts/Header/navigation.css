@@ -1,0 +1,39 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 100%;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.menu li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.menu li:hover {
+  transition: 0.3s ease-in-out;
+  font-size: 1.5em; /* Agrandir le texte */
+  color: #fff; /* Ajouter une couleur brillante */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 50px #fff;
+}

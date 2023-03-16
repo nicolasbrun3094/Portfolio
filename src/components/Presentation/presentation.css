@@ -1,0 +1,51 @@
+.presentation-container {
+  display: flex;
+  margin-left: 10%;
+  align-items: center;
+  height: 90vh;
+  width: 400px;
+}
+
+#target {
+  color: #840ed8;
+  margin-left: 0.5rem;
+  position: relative;
+}
+
+#target::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 5px;
+  background: black;
+  top: 0;
+  transform: translateY(-4px);
+  right: -5px;
+  animation: anim 0.8s linear infinite;
+}
+
+@keyframes anim {
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1em; /* Augmente l'espacement entre les lignes de 1.5 fois la taille de la police */
+  margin-bottom: 10px; /* Ajoute une marge en bas pour séparer les paragraphes */
+}
+
+br {
+  display: block; /* Convertit la balise <br> en un élément de bloc */
+  height: 20px; /* Définit la hauteur de l'élément de bloc créé par <br> */
+  content: ""; /* Ajoute du contenu à l'élément de bloc pour qu'il soit visible */
+}
+
+.description {
+  line-height: normal;
+  font-size: 0.65rem;
+}

@@ -1,0 +1,16 @@
+h2 {
+  font-size: 8rem;
+}
+
+h2 b {
+  color: blueviolet;
+}
+.about-container {
+  width: 70%;
+  margin-top: 15%;
+}
+
+.about-container p {
+  font-size: 1rem;
+  width: 70%;
+}
