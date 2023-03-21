@@ -25,7 +25,7 @@ const Presentation = () => {
   }, [wordIndex, letterIndex, words]);
 
   return (
-    <div className="presentation-container">
+    <div className="presentation-container progressive-text">
       <p>
         Hello, it's me
         <br />

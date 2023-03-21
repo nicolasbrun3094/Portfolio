@@ -14,3 +14,16 @@ h2 b {
   font-size: 1rem;
   width: 70%;
 }
+.text-about {
+  opacity: 0;
+  animation: fadeIn3 8s linear forwards;
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

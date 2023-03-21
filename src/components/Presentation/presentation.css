@@ -33,6 +33,20 @@
   }
 }
 
+.progressive-text {
+  opacity: 0;
+  animation: fadeIn 2s linear forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 p {
   font-size: 2rem;
   line-height: 1em; /* Augmente l'espacement entre les lignes de 1.5 fois la taille de la police */

@@ -12,8 +12,12 @@ const about = () => {
       <CustomCursor />
       <Navigation />
       <div className="about-page">
-        <HomePictures />
-        <AboutMe />
+        <div className="effect-spawn">
+          <HomePictures />
+        </div>
+        <div className="left-to-right-text">
+          <AboutMe />
+        </div>
       </div>
       <Footer />
     </div>

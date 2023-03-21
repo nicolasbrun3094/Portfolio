@@ -1,5 +1,37 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.effect-spawn {
+  opacity: 0;
+  animation: fadeIn 2s linear forwards;
+}
+
 .about-page {
   display: flex;
   justify-content: space-around;
   margin-left: 10%;
+}
+
+.left-to-right-text {
+  position: relative;
+  left: -100%;
+  opacity: 0;
+  animation: slideIn 1s linear forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    left: -10%;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
 }

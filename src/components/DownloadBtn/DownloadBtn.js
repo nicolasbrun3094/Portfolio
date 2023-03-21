@@ -1,6 +1,6 @@
 import React from "react";
 import "./downloadBtn.css";
-import cv from "../../assets/images/dev_webCV.pdf"; // importez le fichier PDF de votre CV
+import cv from "../../assets/images/dev_webCV.pdf";
 
 const DownloadBtn = () => {
   const handleDownload = () => {

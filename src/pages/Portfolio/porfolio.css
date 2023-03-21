@@ -1,0 +1,13 @@
+.spawn-card {
+  opacity: 0;
+  animation: fadeIn 2s linear forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
