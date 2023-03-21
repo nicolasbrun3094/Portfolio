@@ -8,6 +8,11 @@ body {
   font-size: 100%;
   color: white;
   background-color: black;
+  cursor: none;
+}
+
+a {
+  z-index: 1000;
 }
 
 /* ---- Reset ---- */

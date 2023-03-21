@@ -1,4 +1,5 @@
 import React from "react";
+import CustomCursor from "../../components/CustomCursor/CustomCursor";
 import Navigation from "../../components/Layouts/Header/Navigation";
 import Presentation from "../../components/Presentation/Presentation";
 import Networks from "../../components/Networks/Networks";
@@ -10,6 +11,7 @@ import "./home.css";
 const home = () => {
   return (
     <div>
+      <CustomCursor />
       <Navigation />
       <div className="home-container">
         <div className="left-container">

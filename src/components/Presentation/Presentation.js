@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./presentation.css";
+import "./cursor.css";
 
 const Presentation = () => {
   const [wordIndex, setWordIndex] = useState(0);
@@ -19,7 +20,7 @@ const Presentation = () => {
         setWordIndex((wordIndex) => (wordIndex + 1) % words.length);
         setLetterIndex(0);
       }
-    }, 250);
+    }, 350);
     return () => clearInterval(intervalId);
   }, [wordIndex, letterIndex, words]);
 
@@ -30,7 +31,11 @@ const Presentation = () => {
         <br />
         Nicolas Brun
         <br />
-        and I'm a <span id="target">{text}</span>
+        and I'm a{" "}
+        <span id="target">
+          {text}
+          <span className="cursor"></span>
+        </span>
         <br />
         <span className="description">
           As a junior web developer, I am always on the lookout for new

@@ -47,31 +47,41 @@ const Card = () => {
         </a>
       </div>
       <div className="project P4">
-        <img className="img_project" src={Kanap} alt="" />
-        <div className="overlay">
-          <div className="overlay-text">
-            <h3>Kanap :</h3>
-            <p>Web Site e-commerce</p>
+        <a href="https://github.com/nicolasbrun3094/ProjetKanap">
+          <img className="img_project" src={Kanap} alt="Photo_Projet_Kanap" />
+          <div className="overlay">
+            <div className="overlay-text">
+              <h3>Kanap :</h3>
+              <p>Web Site e-commerce</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div className="project P5">
-        <img className="img_project" src={HotTakes} alt="" />
-        <div className="overlay">
-          <div className="overlay-text">
-            <h3>Hot Takes :</h3>
-            <p>NodeJS & secure environment</p>
+        <a href="https://github.com/nicolasbrun3094/piiquantOC6">
+          <img
+            className="img_project"
+            src={HotTakes}
+            alt="Photo_Projet_HotTakes"
+          />
+          <div className="overlay">
+            <div className="overlay-text">
+              <h3>Hot Takes :</h3>
+              <p>NodeJS & secure environment</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div className="project P6">
-        <img className="img_project" src={Kasa} alt="" />
-        <div className="overlay">
-          <div className="overlay-text">
-            <h3>Kasa :</h3>
-            <p>React Application</p>
+        <a href="https://lucent-lily-c578a6.netlify.app/">
+          <img className="img_project" src={Kasa} alt="PhotoProjetKasa" />
+          <div className="overlay">
+            <div className="overlay-text">
+              <h3>Kasa :</h3>
+              <p>React Application</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );
