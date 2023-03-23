@@ -20,6 +20,7 @@ const CustomCursor = () => {
 
   useEffect(() => {
     const linkElements = document.querySelectorAll("a");
+    const burgerMenuElements = document.querySelectorAll(".burger-menu");
 
     const handleLinkMouseEnter = () => setCursorVisible(false);
     const handleLinkMouseLeave = () => setCursorVisible(true);
@@ -29,12 +30,22 @@ const CustomCursor = () => {
       link.addEventListener("mouseleave", handleLinkMouseLeave);
     });
 
+    burgerMenuElements.forEach((burgerMenu) => {
+      burgerMenu.addEventListener("mouseenter", handleLinkMouseEnter);
+      burgerMenu.addEventListener("mouseleave", handleLinkMouseLeave);
+    });
+
     window.addEventListener("mousemove", onMouseMove);
 
     return () => {
       linkElements.forEach((link) => {
         link.removeEventListener("mouseenter", handleLinkMouseEnter);
         link.removeEventListener("mouseleave", handleLinkMouseLeave);
+      });
+
+      burgerMenuElements.forEach((burgerMenu) => {
+        burgerMenu.removeEventListener("mouseenter", handleLinkMouseEnter);
+        burgerMenu.removeEventListener("mouseleave", handleLinkMouseLeave);
       });
 
       window.removeEventListener("mousemove", onMouseMove);

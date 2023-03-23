@@ -1,13 +1,63 @@
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 0 2rem;
   height: 100%;
-  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 20px;
+  position: relative;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.burger-menu {
+  display: none;
+  width: 24px;
+  height: 20px; /* Modifié */
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+  position: relative;
+}
+
+.burger-menu span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  left: 0;
+}
+
+.burger-menu span:nth-child(1) {
+  top: 0;
+}
+
+.burger-menu span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.burger-menu span:nth-child(3) {
+  bottom: 0;
+}
+
+.burger-menu.cross span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.burger-menu.cross span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.cross span:nth-child(3) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 .menu {
@@ -16,6 +66,8 @@
   align-items: center;
   width: 100%;
   max-width: 500px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out; /* Ajouté */
 }
 
 .menu li {
@@ -26,14 +78,44 @@
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+
 .menu a {
   text-decoration: none;
 }
 
 .menu li:hover {
   transition: 0.3s ease-in-out;
-  font-size: 1.5em; /* Agrandir le texte */
-  color: #fff; /* Ajouter une couleur brillante */
+  font-size: 1.5em;
+  color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
     0 0 50px #fff;
+}
+
+@media (max-width: 767px) {
+  .burger-menu {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 1000;
+    opacity: 0; /* Ajouté */
+    transition: opacity 0.3s ease-in-out; /* Ajouté */
+  }
+
+  .menu.open {
+    display: flex;
+    opacity: 1; /* Ajouté */
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
 }

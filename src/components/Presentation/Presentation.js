@@ -27,20 +27,20 @@ const Presentation = () => {
   return (
     <div className="presentation-container progressive-text">
       <p>
-        Hello, it's me
+        Bonjour, je suis
         <br />
         Nicolas Brun
         <br />
-        and I'm a{" "}
+        et je suis un{" "}
         <span id="target">
           {text}
           <span className="cursor"></span>
         </span>
         <br />
         <span className="description">
-          As a junior web developer, I am always on the lookout for new
-          challenges to expand my knowledge and gain practical experience in web
-          development.
+          En tant que développeur web junior, je suis constamment à la recherche
+          de nouveaux défis pour enrichir mes compétences et acquérir une
+          expérience pratique en développement web.
         </span>
       </p>
     </div>

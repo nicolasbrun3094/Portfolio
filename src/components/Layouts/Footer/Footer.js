@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p> © Copyright by Brun Nicolas - Any reproduction is prohibited.</p>
+      <p> © Copyright de Brun Nicolas - Toute reproduction est interdite.</p>
     </div>
   );
 };

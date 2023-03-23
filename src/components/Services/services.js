@@ -57,16 +57,19 @@ const Services = () => {
           />
 
           <p className="text-service">
-            As an experienced web developer, I am available to offer my web
-            development services to any company or organization in need of
-            professional and high-performance websites.
-            <br /> Whether it is for the creation of a static or dynamic
-            website, or for the development of more complex web applications, I
-            am ready to work closely with my clients to understand their needs
-            and offer tailor-made solutions that meet their needs. their
-            requirements.
-            <br /> If you are looking for a passionate, competent and reliable
-            web developer for your next project, do not hesitate to contact me.
+            ✨ En tant que développeur web expérimenté, je suis disponible pour
+            offrir mes services de développement web aux entreprises et
+            organisations en quête de sites professionnels et performants. ✨
+            <br />
+            🚀 Que ce soit pour la création d'un site statique ou dynamique, ou
+            pour le développement d'applications web plus complexes, je suis
+            prêt à travailler en étroite collaboration avec mes clients pour
+            comprendre leurs besoins et proposer des solutions sur-mesure
+            répondant à leurs exigences.
+            <br />
+            💼 Si vous recherchez un développeur web passionné, compétent et
+            fiable pour votre prochain projet, n'hésitez pas à me contacter.
+            Ensemble, donnons vie à vos ambitions numériques !
           </p>
         </div>
       </div>

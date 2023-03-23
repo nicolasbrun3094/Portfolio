@@ -16,7 +16,7 @@ const Card = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h3>Reservia :</h3>
-              <p>Integration of a model</p>
+              <p>Intégration d'une maquette</p>
             </div>
           </div>
         </a>
@@ -27,7 +27,7 @@ const Card = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h3>La Panthère :</h3>
-              <p>SEO of a website</p>
+              <p>SEO d'un site Web</p>
             </div>
           </div>
         </a>
@@ -41,7 +41,7 @@ const Card = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h3>Oh My Food :</h3>
-              <p>Creation of animations</p>
+              <p>Creation d'animations</p>
             </div>
           </div>
         </a>
@@ -52,7 +52,7 @@ const Card = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h3>Kanap :</h3>
-              <p>Web Site e-commerce</p>
+              <p>Site Web E-Commerce</p>
             </div>
           </div>
         </a>
@@ -67,7 +67,7 @@ const Card = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h3>Hot Takes :</h3>
-              <p>NodeJS & secure environment</p>
+              <p>NodeJS & environnements sécurisé</p>
             </div>
           </div>
         </a>
@@ -78,7 +78,7 @@ const Card = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h3>Kasa :</h3>
-              <p>React Application</p>
+              <p>Application React</p>
             </div>
           </div>
         </a>

@@ -17,3 +17,9 @@
 .left-information {
   margin-top: -250px;
 }
+
+@media screen and (max-width: 1030px) {
+  .left-information {
+    margin-top: -100px;
+  }
+}

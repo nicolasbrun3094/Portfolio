@@ -7,3 +7,15 @@
   width: 400px;
   height: 600px;
 }
+
+@media screen and (max-width: 1030px) {
+  .pic {
+    width: 250px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .pic {
+    display: none;
+  }
+}

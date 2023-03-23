@@ -2,7 +2,7 @@
   height: 50px;
   width: 300px;
   display: flex;
-  justify-content: center;
+  margin-left: 45px;
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
@@ -19,4 +19,10 @@
   cursor: pointer;
   transform: scale(1.4);
   transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1030px) {
+  p {
+    font-size: 1.5rem;
+  }
 }

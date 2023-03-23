@@ -3,7 +3,7 @@
   margin-left: 10%;
   align-items: center;
   height: 90vh;
-  width: 400px;
+  width: 500px;
 }
 
 #target {
@@ -62,4 +62,10 @@ br {
 .description {
   line-height: normal;
   font-size: 0.65rem;
+}
+
+@media screen and (max-width: 1030px) {
+  p {
+    font-size: 1.5rem;
+  }
 }
