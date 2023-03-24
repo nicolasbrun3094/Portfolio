@@ -23,6 +23,7 @@
   cursor: pointer;
   z-index: 1001;
   position: relative;
+  margin-right: 10px;
 }
 
 .burger-menu span {
@@ -98,21 +99,29 @@
 
   .menu {
     display: none;
-    position: absolute;
-    top: -18px;
-    left: 50%;
-    right: 0;
+    position: fixed; /* Modifié de 'absolute' à 'fixed' */
+    top: 60px; /* Modifié de '-18px' à '60px' */
+    left: 0; /* Modifié de '50%' à '0' */
+    right: 0; /* Modifié de '0' à '0' */
+    bottom: 0; /* Ajouté */
     flex-direction: column;
+    max-width: 100%;
     text-align: center;
     padding: 15px 0;
     z-index: 1000;
-    opacity: 0; /* Ajouté */
-    transition: opacity 0.3s ease-in-out; /* Ajouté */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.8
+    ); /* Ajouté pour une meilleure visibilité du menu */
   }
 
   .menu.open {
     display: flex;
-    opacity: 1; /* Ajouté */
+    opacity: 1;
   }
 
   .menu li {

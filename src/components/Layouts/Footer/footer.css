@@ -12,3 +12,9 @@
 .footer-container p {
   font-size: 0.7rem;
 }
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    margin-top: 40px;
+  }
+}

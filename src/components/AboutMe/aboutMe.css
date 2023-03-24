@@ -53,3 +53,45 @@ h2 b {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .download-btn {
+    margin-left: 0;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  .download-btn-container {
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .text-about p {
+    text-align: center;
+  }
+
+  .about-container {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .download-btn {
+    width: 90%;
+  }
+}
