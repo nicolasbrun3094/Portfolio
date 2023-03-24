@@ -18,3 +18,9 @@
     margin-top: 40px;
   }
 }
+
+@media (max-width: 575px) {
+  .footer-container {
+    width: 100% !important;
+  }
+}

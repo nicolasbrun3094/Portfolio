@@ -75,3 +75,9 @@ br {
     height: 65vh;
   }
 }
+
+@media screen and (max-width: 575px) {
+  .presentation-container {
+    width: 90%;
+  }
+}
